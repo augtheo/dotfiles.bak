@@ -1,0 +1,3 @@
+watch_later/
+scripts/mpv_thumbnail_script_server-*.lua
+!scripts/mpv_thumbnail_script_server-1.lua
