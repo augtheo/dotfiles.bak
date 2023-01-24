@@ -1,0 +1,17 @@
+set nu rnu
+set clipboard+=unnamed
+set NERDTree
+
+"Stabilize screen vertically on scroll
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+
+"Window navigation
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+
+"Move text horizontally and stay in visual line mode
+vnoremap < <gv
+vnoremap > >gv
