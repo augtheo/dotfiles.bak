@@ -2,6 +2,13 @@ set nu rnu
 set path+=**
 set hlsearch
 
+"FZF shortcut
+nnoremap <Space>f <Esc>:FZF<CR>
+
+"Fold
+set foldenable
+set foldmethod=indent
+
 let g:netrw_banner=0 " disable annoying banner
 
 "Moving lines up or down https://vim.fandom.com/wiki/Moving_lines_up_or_down.
