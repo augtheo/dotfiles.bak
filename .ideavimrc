@@ -2,6 +2,8 @@ set nu rnu
 set clipboard+=unnamed
 set NERDTree
 
+let mapleader=" "
+
 "Scroll stabilization
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
@@ -15,3 +17,16 @@ nnoremap <c-k> <c-w>k
 "Return to visual selection
 vnoremap < <gv
 vnoremap > >gv
+
+"Move lines up or down
+map <A-j> :action MoveLineDown<CR>
+map <A-k> :action MoveLineUp<CR>
+
+"Terminal
+nnoremap <leader>t :action ActivateTerminalToolWindow<CR>
+
+"NERDTree
+nnoremap <leader>e :NERDTreeToggle<CR>
+
+"Files
+nnoremap <leader>f :action GotoFile<CR>
